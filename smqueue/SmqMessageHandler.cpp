@@ -28,6 +28,7 @@
 #include "SmqMessageHandler.h"
 #include "SmqReader.h"
 #include "SmqWriter.h"
+#include <fcntl.h>
 
 // Pointers to handlers for the reader and writer queues
 SmqReader* smqReader;
